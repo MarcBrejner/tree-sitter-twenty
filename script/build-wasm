@@ -121,5 +121,3 @@ if [[ "$minify_js" == "1" ]]; then
 else
   cp target/scratch/tree-sitter.js $web_dir/tree-sitter.js
 fi
-
-mv target/scratch/tree-sitter.wasm $web_dir/tree-sitter.wasm
