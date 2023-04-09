@@ -81,6 +81,7 @@ mkdir -p target/scratch
 # in the `target/scratch` directory
 $emcc                                            \
   -s WASM=1                                      \
+  -s SINGLE_FILE=1                               \
   -s TOTAL_MEMORY=33554432                       \
   -s ALLOW_MEMORY_GROWTH=1                       \
   -s MAIN_MODULE=2                               \
